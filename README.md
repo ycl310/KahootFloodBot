@@ -11,6 +11,7 @@ And also, don't forget to install the modules required for the python program, t
 # Usage
 
 First, make sure you change the game pin in the file that matches the game pin in the kahoot game of your desire
+
 Run in the terminal :
 ```bash
 python main.py
