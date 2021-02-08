@@ -8,6 +8,6 @@ def thread_func(name:str):
 	bot.join(2123865, str(name))
 	bot.on("joined", joinHandle)
 
-for i in range(500):
+for i in range(100):
 	x = threading.Thread(target=thread_func, args=(str(i),))
 	x.start()
