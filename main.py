@@ -1,5 +1,6 @@
 from kahoot import client
-import threading
+#import threading
+import threading2
 import argparse
 import time
 
@@ -36,7 +37,18 @@ def thread_func(name:str):
 	bot.join(int(pin), str(name))
 	bot.on("joined", joinHandle)
 
-for i in range(int(ite)):
-	x = threading.Thread(target=thread_func, args=(str(f[i]),))
-	x.start()
-	time.sleep(int(wait))
+def main():
+	t = None
+	for i in range(int(ite)):
+		t = threading2.Thread(target=thread_func, args=(str(f[i]),))
+		t.start()
+		time.sleep(int(wait))
+	while True:
+		try:
+			pass
+		except KeyboardInterrupt:
+			t.stop()
+			exit()
+
+if __name__ == "__main__":
+	main()
