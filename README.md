@@ -25,6 +25,9 @@ Don't do this to your teacher, online teaching is hard!
 # Resources
 
 Python https://www.python.org/downloads/
+
 KahootPY https://pypi.org/project/KahootPY/
+
 Threading https://docs.python.org/3/library/threading.html
+
 Git https://git-scm.com/downloads
