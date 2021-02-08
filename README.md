@@ -21,3 +21,10 @@ In the file directory and make sure you have Python installed
 One thing to note is that you can change the amount of bots that joins the Kahoot by making changes to the .py file
 
 Don't do this to your teacher, online teaching is hard!
+
+# Resources
+
+Python https://www.python.org/downloads/
+KahootPY https://pypi.org/project/KahootPY/
+Threading https://docs.python.org/3/library/threading.html
+Git https://git-scm.com/downloads
