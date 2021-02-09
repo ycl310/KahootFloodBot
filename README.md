@@ -28,7 +28,7 @@ python main.py --pin (game pin) --amt (amount of bots)
 ```
 In the file directory and make sure you have Python installed
 
-Don't do this to your teacher, online teaching is hard.
+Don't do this to your teacher, bc this is only for educational purposes
 
 # Resources
 
