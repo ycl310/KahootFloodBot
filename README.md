@@ -21,7 +21,6 @@ Cmd | description
 `--pin` | game pin
 `--amt` | the amount of bots
 `--wait` | the time to wait for each bot to join (not required)
---- | ---
 
 Run in the terminal :
 ```bash
