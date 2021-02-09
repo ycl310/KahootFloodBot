@@ -16,8 +16,11 @@ You can do `--help` flag to figure out the usages for each of them.
 
 Current ones:
 --help | help
+--- | ---
 --pin | game pin
+--- | ---
 --amt | the amount of bots
+--- | ---
 --wait | the time to wait for each bot to join (not required)
 --- | ---
 Run in the terminal :
