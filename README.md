@@ -15,6 +15,8 @@ Running the file needs flags and it has required arguments to be able to work.
 You can do `--help` flag to figure out the usages for each of them.
 
 Current ones:
+Cmd | description
+--- | ---
 --help | help
 --- | ---
 --pin | game pin
